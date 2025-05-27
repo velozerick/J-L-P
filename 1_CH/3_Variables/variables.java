@@ -33,4 +33,9 @@ x = 5;
 y = 7.445;
 z = 'hello';
 
+A partir de esta asigancion pueden hacerse ooperaciones con las variables 
+A lo largo del programa , la misma variable puede contener otros valores (siempre de tipo entero) y utilizarse para otras operacionespor ejemplo:
 */
+
+
+int x;
