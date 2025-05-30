@@ -46,4 +46,9 @@ int z;
 
 //declaracion de variables
 x = 8;
+y = 2;
+z = x / y;
+x = 5;
+y = x + 5;
+
 
