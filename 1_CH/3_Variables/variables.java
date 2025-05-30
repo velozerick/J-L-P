@@ -38,4 +38,12 @@ A lo largo del programa , la misma variable puede contener otros valores (siempr
 */
 
 
+//Declaracion de tipo de variables
 int x;
+int y;
+int z;
+
+
+//declaracion de variables
+x = 8;
+
