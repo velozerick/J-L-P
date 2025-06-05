@@ -52,3 +52,37 @@ x = 5;
 y = x + 5;
 
 
+
+
+########################################################################################
+EJERCICIOS
+
+  
+public class variables {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		
+		//VARIABLES
+		
+		//para definir variable se dice de que tipo es el dato
+		
+		 String         name =        "Erick";
+		//tipo     nombre de var     valor de var
+		
+		System.out.println(name);
+		
+		int age = 37;
+		System.out.println(age);
+		
+		
+		name = "salvador";
+		System.out.println(name);
+		
+		
+	}
+
+}
