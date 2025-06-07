@@ -113,3 +113,73 @@ public class Operators {
 	}
 
 }
+
+
+
+########################################################################3
+EJERCICIOS
+
+
+
+	
+		//EJERCICIOS
+		System.out.println("\n###EJERCICIOS###\n");
+		
+		   // 1. Crea una variable con el resultado de cada operación aritmética.
+		System.out.println("\nE1\n");
+		var num = 10;
+		
+		System.out.println(num + num);
+		System.out.println(num - num);
+		System.out.println(num * num);
+		System.out.println(num / num);
+												
+
+        // 2. Crea una variable para cada tipo de operación de asignación.
+		System.out.println("\nE2\n");
+		var f = 10;
+		var g = 20;
+		f = g;
+		System.out.println(f);
+		
+		f = g * 2;
+		System.out.println(f);
+ 
+        // 3. Imprime 3 comparaciones verdaderas con diferentes operadores de comparación.
+		System.out.println("\nE2\n");
+		System.out.println(f == f);
+		System.out.println(g < f);
+		System.out.println(f >= g);
+
+        // 4. Imprime 3 comparaciones falsas con diferentes operadores de comparación.
+		System.out.println(g >= f);
+		System.out.println(f == g);
+		System.out.println(f <= g);
+
+        // 5. Utiliza el operador lógico and.
+		System.out.println("\nE3\n");
+		System.out.println(true && true );
+		System.out.println(true && false);
+		
+		
+
+        // 6. Utiliza el operador lógico or.
+		System.out.println(3 > 2 || 5 < 10);
+		System.out.println(f == g || f < g);
+
+        // 7. Combina ambos operadores lógicos.
+		System.out.println(true && false || false );
+		System.out.println(10 > 8 && 8978 > 10 || 5 == 5);
+
+        // 8. Añade alguna negación.
+		System.out.println(10 > 8 && !(8978 > 10) || !(5 == 5));
+        // 9. Imprime 3 ejemplos de uso de operadores unarios.
+		System.out.println(f++);
+		System.out.println(f);
+		++f;
+		System.out.println(f);
+
+        // 10. Combina operadores aritméticos, de comparación y lógicos.
+		var h = 52;
+		
+		System.out.println(h + h > h && h > f);
