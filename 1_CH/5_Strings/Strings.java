@@ -95,6 +95,32 @@ public class Strings {
         System.out.println(String.format("Hola mi nombre es %s tengo %d años." , name , age )); // %s es para cadenas de texto y %d para numeros enteros de esta manera se reemplazan los valores en la cadena de texto
         
 
+
+
+//SCANNER
+        //Scanner es una clase que nos permite leer datos de entrada por teclado
+        //Se importa la clase Scanner desde el paquete java.util pero va antes de la clase Strings (hasta arriba)
+
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Ingresas tu nombre: ");
+        String nombre = entrada.nextLine();
+
+        System.out.println("Ingresa tu edad: ");
+        int edad = entrada.nextInt();
+
+        System.out.println("Ingresa tu estatura en metros (ej. 1.75): ");
+        double altura = entrada.nextDouble();
+
+
+        System.out.println("\nHola " + nombre + ", tienes  " + edad + " y mides " + altura * 100 + " cm " );
+
+        entrada.close();
+
+
+
+
+        
     }
 }
 
