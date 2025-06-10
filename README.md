@@ -52,6 +52,7 @@ Organizaré el contenido en carpetas temáticas según vaya avanzando:
 - [ ] Spring Boot y desarrollo empresarial
 - [ ] Despliegue de aplicaciones
 
+Se inicio el dia Lunes 9 de junio de 2025
 ---
 
 ## 📖 Notas
