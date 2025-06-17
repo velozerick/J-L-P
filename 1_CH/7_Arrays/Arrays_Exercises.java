@@ -61,5 +61,49 @@ public class Arrays_Exercises {
         if (tempratura[6] < min) min = tempratura[6];
         System.out.println("la tempreatura minima es : " + min);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         // declarar array
+        int i;
+        int prom;
+        int suma = 0;
+        double [] temperatura = new double[7];
+
+        // Crear scanner
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Porfavor ingresa la temperatura de cada dia ");
+
+        //Generar el arreglo
+        temperatura[0] = entrada.nextDouble();
+        temperatura[1] = entrada.nextDouble();
+        temperatura[2] = entrada.nextDouble();
+        temperatura[3] = entrada.nextDouble();
+        temperatura[4] = entrada.nextDouble();
+        temperatura[5] = entrada.nextDouble();
+        temperatura[6] = entrada.nextDouble();
+
+        for (i = 0; i <= 7; i++){
+            suma += i;
+        }
+
+        prom = suma / 7;
+        System.out.println(prom);
+
+
     }
 }
